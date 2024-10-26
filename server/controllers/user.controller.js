@@ -1,5 +1,5 @@
-import User from '../models/user.model'
-import extend from 'lodash/extend'
+import User from '../models/user.model.js'
+import extend from 'lodash/extend.js'
 import errorHandler from './error.controller.js'
 
 const create =async(req,res)=>{
